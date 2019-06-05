@@ -1,4 +1,4 @@
-package com.stormkid.mongo
+package com.stormkid.mongokt
 
 /**
 

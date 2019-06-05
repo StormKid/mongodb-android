@@ -1,4 +1,4 @@
-package com.stormkid.mongo.curd
+package com.stormkid.mongokt.curd
 
 import com.mongodb.client.model.Filters
 

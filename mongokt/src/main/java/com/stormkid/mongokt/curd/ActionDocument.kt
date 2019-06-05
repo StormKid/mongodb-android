@@ -1,9 +1,9 @@
-package com.stormkid.mongo.curd
+package com.stormkid.mongokt.curd
 
 import com.mongodb.client.FindIterable
 import com.mongodb.client.MongoCollection
-import com.stormkid.mongo.Model
-import com.stormkid.mongo.Utils
+import com.stormkid.mongokt.Model
+import com.stormkid.mongokt.Utils
 import org.bson.Document
 
 /**
