@@ -2,11 +2,11 @@
 def binaryUser = "stokid"
 def binaryApiKey = "b2cbe912397d9bdf2386ceda8e67f7de0b7f7859"
 version = public_version // build构建的version一定需要指明
+group = "com.stormkid"
 install {
     repositories.mavenInstaller {
         pom {
             project {
-                groupId 'stormkid'
                 packaging 'arr'
                 description 'mongodb for kotlin'
                 url "https://github.com/StormKid/mongodb-android"
