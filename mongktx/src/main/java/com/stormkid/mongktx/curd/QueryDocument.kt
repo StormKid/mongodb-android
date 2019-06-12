@@ -1,4 +1,4 @@
-package com.stormkid.mongokt.curd
+package com.stormkid.mongktx.curd
 
 /**
 查询对象

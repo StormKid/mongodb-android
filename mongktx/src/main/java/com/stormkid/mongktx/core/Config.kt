@@ -1,10 +1,11 @@
-package com.stormkid.mongokt
+package com.stormkid.mongktx.core
 
 import android.app.Application
 import com.mongodb.client.MongoClient
 import com.mongodb.client.MongoCollection
 import com.mongodb.stitch.android.core.Stitch
 import com.mongodb.stitch.android.services.mongodb.local.LocalMongoDbService
+import com.stormkid.mongktx.Constants
 import org.bson.Document
 
 /**
