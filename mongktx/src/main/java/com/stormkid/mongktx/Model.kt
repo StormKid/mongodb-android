@@ -1,4 +1,4 @@
-package com.stormkid.mongokt
+package com.stormkid.mongktx
 
 import java.io.Serializable
 

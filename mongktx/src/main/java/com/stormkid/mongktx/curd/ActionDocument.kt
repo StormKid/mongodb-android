@@ -2,7 +2,7 @@ package com.stormkid.mongokt.curd
 
 import com.mongodb.client.FindIterable
 import com.mongodb.client.MongoCollection
-import com.stormkid.mongokt.Model
+import com.stormkid.mongktx.Model
 import com.stormkid.mongktx.Utils
 import org.bson.Document
 

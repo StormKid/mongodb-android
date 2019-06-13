@@ -3,7 +3,7 @@ package com.stormkid.example
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.stormkid.mongktx.core.Config
-import com.stormkid.mongokt.Model
+import com.stormkid.mongktx.Model
 import com.stormkid.mongokt.curd.ActionDocument
 
 class MainActivity : AppCompatActivity() {
@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-     data class Entity(val name:String):Model.BaseEntity()
+     data class Entity(val name:String): Model.BaseEntity()
 
 
 }

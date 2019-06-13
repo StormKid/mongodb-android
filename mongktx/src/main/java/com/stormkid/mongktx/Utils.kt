@@ -1,6 +1,5 @@
 package com.stormkid.mongktx
 
-import com.stormkid.mongokt.Model
 import org.bson.Document
 
 /**
