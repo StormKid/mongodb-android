@@ -1,4 +1,4 @@
-package com.stormkid.mongktx
+package com.stormkid.mongktx.utils
 
 import com.google.gson.GsonBuilder
 

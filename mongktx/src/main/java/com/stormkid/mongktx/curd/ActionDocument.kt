@@ -1,9 +1,9 @@
-package com.stormkid.mongokt.curd
+package com.stormkid.mongktx.curd
 
 import com.mongodb.client.FindIterable
-import com.mongodb.client.MongoCollection
 import com.stormkid.mongktx.Model
-import com.stormkid.mongktx.Utils
+import com.stormkid.mongktx.core.Config
+import com.stormkid.mongktx.utils.Utils
 import org.bson.Document
 
 /**
@@ -11,10 +11,11 @@ import org.bson.Document
 @author ke_li
 @date 2019/5/30
  */
-class ActionDocument(private val collection: MongoCollection<Document>) {
+class ActionDocument{
 
     private var doc: Document? = null
 
+    private val collection =  Config.instance.Builder().build()!!
     /**
      * 初始化model
      */
@@ -60,6 +61,9 @@ class ActionDocument(private val collection: MongoCollection<Document>) {
         return result != null
     }
 
+    /**
+     * 获取所有的对象
+     */
     fun findAll(): FindIterable<Document> {
         return collection.find()
     }
